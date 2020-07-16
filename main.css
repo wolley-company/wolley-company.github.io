@@ -47,9 +47,13 @@ li a {
 nav{
     background-color: white;
     padding: 0.25em;
+    font-size: 18pt;
 }
 nav img {
     height: 55px;
+}
+section img {
+    width: 200px;
 }
 #orders-table {
     margin-left: auto;
