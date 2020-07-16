@@ -1,0 +1,138 @@
+a {
+    text-decoration: none;
+    color: #37392E
+}
+body {
+    text-align: center;
+}
+#bio {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    color: #1e1c00; 
+    background-color: #DAD67C;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    padding: 2em;
+    margin-top: 2em;
+}
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#gallery img {
+    width: 300px;
+    margin-top: 2em;
+}
+#heropic {
+    width: 350px;
+}
+h1, h2 {
+    font-family: 'Amatic SC', cursive;
+}
+main {
+    font-family: 'Poppins', sans-serif;
+}
+li a {
+    text-decoration: none;
+    display: block;
+    color: #37392E; 
+    font-weight: 10000;
+    font-family: 'Amatic SC', cursive;
+    font-size: 12pt;
+}
+nav{
+    background-color: white;
+    padding: 0.25em;
+}
+nav img {
+    height: 55px;
+}
+#orders-table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 8pt;
+}
+#orders-table td {
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+  }
+#orders-table th {
+      font-weight: 800;
+      font-family: 'Poppins', sans-serif;
+} 
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0em;
+}
+
+@media only screen and (min-width: 32.5em) {
+    #gallery img {
+        width: 500px;
+    }
+#heropic {
+    width: 740px;
+}
+menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+} 
+nav img {
+    height: 65px;
+    margin-left: -45px;
+}
+li a {
+    justify-content: space-evenly;
+    padding: 2em;
+    font-size: 12pt;
+}
+#orders-table {
+    font-size: 12pt;
+}
+#subscriptionH {
+    font-size: 28pt;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+}
+@media only screen and (min-width: 62.5em) {
+    main #bio section {
+        width: 600px
+    }
+    #gallery img {
+        width: 800px;
+    }
+    section img {
+        width: 400px;
+    }
+    #heropic {
+        width: 1330px;
+    }
+    li a {
+        font-size: 18pt;
+    }
+    nav img {
+        height: 150px;
+        margin-left: -150px;
+    }
+    nav {
+        margin-left: 8em;
+    }
+    article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
